@@ -40,11 +40,11 @@ https://www.concertgebouw.nl/
 
 #### Screenshot(s) van de eerste pagina (small screen): 
 hier de naam van de pagina  
-<img src="images/schermopname (234)" width="375px" alt="omschrijving van de pagina">
+<img src="images/schermopname (234).png" width="375px" alt="omschrijving van de pagina">
 
 #### Screenshot(s) van de tweede pagina (small screen):
 hier de naam van de pagina  
-<img src="images/schermopname (236)" width="375px" alt="omschrijving van de pagina">
+<img src="images/schermopname (236).png" width="375px" alt="omschrijving van de pagina">
  
 </details>
 
