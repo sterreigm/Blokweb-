@@ -39,7 +39,7 @@ surface plane (kies uit responsive óf surface plane)
 https://www.concertgebouw.nl/
 
 #### Screenshot(s) van de eerste pagina (small screen): 
-Homepage 
+Homepage
 <img src="images/Schermopname (234).png" width="375px" alt="omschrijving van de pagina">
 
 #### Screenshot(s) van de tweede pagina (small screen):
