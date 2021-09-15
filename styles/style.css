@@ -1,5 +1,65 @@
-/* CSS Document */
+/* CSS Document
+ */
 *, *::after, *::before {
   box-sizing:border-box;  
 }
+
+* ::selection {
+  background-color: hotpink;
+  
+}
+
+/**********************/
+/*HEADER*/
+/*********************/
+
+header {
+  background-color: white;
+}
+
+header nav {
+  display:block;
+ }
+
+ header nav ul li ul{
+   display: none;
+ }
+
+
+
+main section:nth-of-type(1) {
+  color: white; 
+  
+  background-image: url(../images/achtergrondpiano01.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:100vh;
+
+}
+
+
+
+main section:nth-of-type(1) article {
+  display: flex;
+  justify-content: space-around;
+  
+}
+
+main section form {
+  color: black;
+  background-color: lightgray;
+
+  display: flex;
+
+  justify-content: center;
+  flex-wrap: wrap;
+
+
+}
+
+
+
+
+ 
+
 
