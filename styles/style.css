@@ -42,7 +42,7 @@ main section:nth-of-type(1) {
 
 
 
-main section:nth-of-type(1) article {
+main section:nth-of-type(1) div {
   display: flex;
   justify-content: space-around;
   

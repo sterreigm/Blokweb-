@@ -40,11 +40,11 @@ https://www.concertgebouw.nl/
 
 #### Screenshot(s) van de eerste pagina (small screen): 
 homescreen
-<img src="" width="375px" alt="omschrijving van de pagina">
+<img src="images/homepagescreenshot.png" width="375px" alt="omschrijving van de pagina">
 
 #### Screenshot(s) van de tweede pagina (small screen):
 ticketspage 
-<img src="" width="375px" alt="omschrijving van de pagina">
+<img src="images/ticketpagescreenshot.png" width="375px" alt="omschrijving van de pagina">
  
 </details>
 
@@ -78,7 +78,9 @@ ticketspage
 <summary>uitwerken voor 1e voortgang</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+Ik vond de eerste opzet best lastig, maar zodra de basis stond ging ik best lekker.
+Moeite met onthouden van alle elementen en opties (vooral in css)
+Duurt allemaal wel best lang
 
 
 ### Agenda voor meeting
@@ -87,17 +89,18 @@ samen met je groepje opstellen
 | IK             | INE                | Mathijs      | Arsenio          |
 | ---            | ---                | ---          | ---              |
 | html semantisch| html semantisch    | div en class | en dan ik dat    |
-| github foutje  | dit als er tijd is | nog een punt | dit wil ik zeker |
+|                |                    |              |                  |
 |                | ...                | ...          | ...              |
 
 
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen
 
-- punt 1
-- punt 2
-- nog een punt
-- ...
+- wanneer je iets gebruikt 
+  alleen om het te flexen moet het wel een div zijn
+- werk per blokje en wanneer je daar tevreden mee bent door 
+- probeer aan het eind van volgende week helemaal bij te zijn dan gaat het lekker!
+
 
 </details>
 
