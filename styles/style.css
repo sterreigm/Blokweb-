@@ -1,5 +1,8 @@
 /* CSS Document
  */
+
+ /*lettertyp: FuturaTL-Light,Arial,Helvetica,sans-serif; */
+
 *, *::after, *::before {
   box-sizing:border-box;  
 }
@@ -9,26 +12,71 @@
   
 }
 
+
+
+
 /**********************/
 /*HEADER*/
 /*********************/
 
 header {
-  background-color: white;
+  background-color: #F5F5F5;
 }
 
 header nav {
-  display:block;
+  display: flex;
+  justify-content: center;
+ }
+
+ header nav ul {
+  display: flex;
+  list-style-type: none;
+
+  
+ }
+
+
+ header nav ul li {
+  display: block;
+  border: black solid;
+  
+  display: flex;
+  flex-grow: 1;
+
+ }
+
+
+ header a, header button{
+  display: block;
+
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  
+  
+  
+   
  }
 
  header nav ul li ul{
    display: none;
+   background-color: none;
  }
 
  
 /***********************/
 /*MAIN*/
 /*********************/
+
+/* main, footer {
+  display: none
+}
+*/
+
+main {
+  background-color: 	#F5F5F5;
+}
+
 
 main section:nth-of-type(1) {
   color: white; 
@@ -42,7 +90,33 @@ main section:nth-of-type(1) {
 
 
 
+main section:nth-of-type(1) h2, main section:nth-of-type(1) p, main section:nth-of-type(1) a {  
+  display: block;
+  padding-left: 15px;
+}
+
+
+
+main section:nth-of-type(1) h2 {
+  padding-top: 20px;
+}
+
+
+main section:nth-of-type(1) a:nth-of-type(1) {
+  color: black;
+
+  
+  background-color: white;
+  padding: 10px;
+  margin: 15px;
+}
+
+/********************************************/
+/*FORM*/
+/*******************************************/
+
 main section:nth-of-type(1) div {
+
   display: flex;
   justify-content: space-around;
   
@@ -57,9 +131,152 @@ main section form {
   justify-content: center;
   flex-wrap: wrap;
 
+  padding: 40px;
+
+  margin-top: 100px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+
+/***************************/
+/*MIDDLE SECTION*/
+/*************************/
+
+main section:nth-of-type(2) article a {
+  display: block;
+  width:fit-content;
+  padding: 10px;
+
+  
+  background-color: red;
+  color: white;
+}
+
+main section:nth-of-type(2) article:nth-of-type(1){
+  background-color: white;
+ 
+
+  padding: 20px;
+  padding-bottom: 40px;
+
+  margin: 10px;
+  margin-bottom: 30px;
+
+  text-align: left;
+}
+
+main section:nth-of-type(2) article:nth-of-type(1) img{
+  width: calc(100% + 40px);
+  margin-top: -20px;
+  margin-left: -20px;
+
+} 
+
+main section:nth-of-type(2) article:nth-of-type(2){
+  background-color: white;
+
+  padding: 20px;
+  padding-bottom: 40px;
+
+  margin: 10px;
+  margin-bottom: 30px;
+
+  text-align: left;
+}
+
+main section:nth-of-type(2) article:nth-of-type(2) img{
+  width: calc(100% + 40px);
+  margin-top: -20px;
+  margin-left: -20px;
+
+} 
+
+
+
+/***************************/
+/*LAST SECTION*/
+/**************************/
+
+main section:nth-of-type(3) article:nth-of-type(1){
+  background-color: #dddfd2;
+
+  padding: 20px;
+  padding-bottom: 40px;
+
+  margin: 10px;
+  margin-bottom: 30px;
+
+  text-align: left;
+}
+
+main section:nth-of-type(3) article:nth-of-type(1) img{
+  width: calc(100% + 40px);
+  margin-top: -20px;
+  margin-left: -20px;
 
 }
 
+main section:nth-of-type(3) article:nth-of-type(1) a{
+display: block;
+border: lightgray solid;
+padding: 10px;
+
+}
+
+
+main section:nth-of-type(3) article:nth-of-type(2){
+  background-color: #dddfd2;
+
+  /*display:flex;
+  flex-wrap: wrap;
+  justify-content: center; */
+
+  padding: 20px;
+  padding-bottom: 40px;
+
+  margin: 10px;
+  margin-bottom: 30px;
+
+  text-align: left;
+}
+
+main section:nth-of-type(3) article:nth-of-type(2) img{
+    width: calc(100% + 40px);
+    margin-top: -20px;
+    margin-left: -20px;
+
+}
+
+main section:nth-of-type(3) article:nth-of-type(2) a{
+  display: block;
+  border: lightgray solid;
+  padding: 10px;
+
+}
+
+
+
+/*************************************/
+/*FOOTER*/
+/***********************************/
+
+footer {
+  background-color: 	#F5F5F5;
+  
+
+  display: flex;
+  flex-wrap:wrap;
+  justify-content: left;
+
+  padding: 30px;
+
+}
+
+footer h2 {
+  color: black;
+  
+}
 
 
 
