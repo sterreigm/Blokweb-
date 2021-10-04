@@ -235,11 +235,16 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 <summary>uitwerken voor eindgesprek</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+De laatste week was nog best wel even stressen, en ik denk dat 
+er nog genoeg dingen zijn op de website die beter kunnen. Maar al 
+met al ben ik erg tevreden met mijn resultaat en de voortgang
+die ik heb gemaakt in de afgelopen weken.
 
 ### Screenshot(s)
 
-hier screenshot(s) van je eindresultaat
+<img src='images/eindontwerp01.png' width="375px" >
+<img src='images/eindontwerp02.png' width="375px" >
+<img src='images/eindontwerp03.png' width="375px" >
 
 </details>
 
