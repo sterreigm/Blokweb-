@@ -1,5 +1,15 @@
 // JavaScript Document
-var hamburgerButton = document.querySelector ('nav button:nth-of-type(2)')
-var menuList = document.querySelector ('nav ul li:nth-of-type(3) ul')
 
-GamepadButton.addEventlistener ('click')
+var hamburgerButton = document.querySelector('nav button:last-of-type');
+var menuList = document.querySelector('nav ul');
+// element aanspreken 
+
+console.log(hamburgerButton);
+
+hamburgerButton.addEventListener('click', uitklappen);
+//dit element laten reageren op klik --> 
+//wanneer er op word geklikt gebeurd er iets met de functie uitklappen.
+
+function uitklappen() {
+    menuList.classList.toggle('open');
+}

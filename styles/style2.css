@@ -1,0 +1,306 @@
+*, *::after, *::before {
+    box-sizing:border-box;  
+    padding: 0;
+    margin: 0;
+  }
+  
+  * ::selection {
+    background-color: hotpink;
+    
+  }
+  
+  *:focus {
+    border: solid 6px hotpink ;  
+    background-color: pink;
+  }
+  
+  *{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+  /**********************/
+  /*HEADER*/
+  /*********************/
+  header {
+    background-color: #F5F5F5;
+    padding: 10px;
+  }
+  
+  header nav {
+    display: flex;
+    justify-content: center;
+  
+   }
+  
+   header nav h1 a {
+    display: block;
+    text-align: left;
+   }
+  
+   header nav button {
+  
+    border: none;
+    padding: 20px;
+    text-decoration: none;
+    
+   }
+  
+   header a {
+    display: block;
+  
+    background-color: none;
+  
+    text-align: center;
+    text-decoration: none;
+    color: black; 
+    
+   } 
+   
+/********************************/
+/***UITKLAP MENU*****/
+/*****************************/
+  
+   .open {
+     display: block;
+    
+     width: 10em;
+     
+  
+     background-color: black;
+     list-style: none;
+  
+     position: absolute;
+     top: 0;
+     right: 0;
+     height: 100vh;
+  
+     
+   }
+  
+  .open li {
+    padding: 15px;
+  }
+  
+  .open li a {
+    border-bottom: solid white 1px;
+    padding: 20px;
+    color: white;
+  }
+  
+  
+   header nav ul{
+     display: none; 
+   }
+
+
+/***********************/
+/*MAIN*/
+/*********************/
+
+main {
+  background-color:  #F5F5F5;
+}
+
+main section:first-of-type {
+    color: white;
+
+    background-image: url(../images/achtergrond02.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    height:100vh;
+   
+}
+
+main section:first-of-type h2, main section:first-of-type p {  
+    display: block;
+    text-align: center;
+
+}
+
+main section:first-of-type h2 {
+    padding-top: 450px;
+    
+}
+
+main section:first-of-type p {
+  padding-bottom: 20px;
+}
+  
+  
+main section:first-of-type button{
+    color: black;
+    border: none;
+  
+    
+    background-color: white;
+    padding: 12px;
+    margin: 15px;
+    width: 25em;
+
+}
+
+/********************************/
+/**MAIN 2e SECTION*/
+/*****************************/
+
+
+main section:nth-of-type(2) p {
+  display: block;
+  padding: 20px;
+
+  font-size: 15px;
+
+  color: white;
+  background-color:#11333e;
+}
+
+main section:nth-of-type(2) div{
+  display: block;
+  text-align: center ;
+
+  padding: 30px;
+
+  background-color:black;
+}
+
+
+/******************************/
+/**MAIN 3e SECTION CONCERTAGENDA*/
+/******************************/
+
+main section:nth-of-type(3) {
+  display: block;
+  text-align: center;
+}
+
+main section:nth-of-type(3) h2:first-of-type {
+  padding-top: 30px;
+
+}
+
+main section:nth-of-type(3) div {
+  display:block;
+  border: solid 1px black;
+  background-color: white;
+
+  margin: 20px;
+  padding: 10px;
+
+}
+
+main section:nth-of-type(3) p {
+  font-size: small;
+}
+
+main section:nth-of-type(3) a {
+  display: block;
+
+  background-color: green;
+  color: white;
+  
+  text-decoration: none;
+
+  margin-top: 30px;
+  padding: 10px;
+}
+
+main section:nth-of-type(3) div:nth-of-type(2) :nth-of-type(3) {
+  display: block;
+
+  border: solid green;
+  color: black;
+
+  font-size: medium;
+  text-decoration: none;
+
+  margin-top: 30px;
+  padding: 10px;
+}
+
+/******************************************/
+/*********MAIN 4e SECTION QUOTES****/
+/*************************************/
+
+
+main section:nth-of-type(4) article:first-of-type {
+  background-color: black;
+  color:white;
+
+  padding:20px;
+
+}
+
+main section:nth-of-type(4) article:first-of-type blockquote{
+  padding-bottom:20px;
+
+}
+
+main section:nth-of-type(4) img:first-of-type {
+  width: 100%;
+
+}
+
+main section:nth-of-type(4) article:nth-of-type(2) {
+  margin:0;
+  background-color: #11333e;
+  color:white;
+  
+  padding:20px;
+}
+
+main section:nth-of-type(4) article:nth-of-type(2) blockquote {
+  padding-bottom:20px;
+}
+
+main section:nth-of-type(4) img:nth-of-type(2) {
+  width: 100%;
+}
+
+
+
+
+
+
+/**************************/
+/*FOOTER*/
+/***********************/
+
+
+
+footer {
+    background-color: 	#F5F5F5;
+    
+  
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: left;
+  
+    padding: 30px;
+  
+  }
+
+  footer h2 {
+    color: black;
+    padding: 5px;
+    font-size:medium;
+  }
+  
+  footer ul {
+    list-style: none;
+    padding: 10px;
+  }
+  
+  footer li {
+    padding: 2px;
+  }
+  
+  footer li a {
+    text-decoration: none;
+  }
+  
+  footer li a:visited {
+    color:yellowgreen;
+  }
+  

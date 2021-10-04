@@ -55,16 +55,19 @@ ticketspage
 ## Breakdownschets (week 1)
 
 <details>
-<summary>uitwerken na afloop 2e werkgroep</summary>
+<summary>uitwerken na afloop 2e werkgroep link voor schetsen miro: https://miro.com/app/board/o9J_lySfeUw=/?invite_link_id=969260563827 </summary>
 
 ### de hele pagina: 
 <img src="images/schets01.png" width="375px" alt="breakdown van de hele pagina">
 
-### dynamisch deel (bijv menu): 
-<img src="" width="375px" alt="breakdown van een dynamisch deel">
+<img src="images/schets02.png" width="375px" alt="breakdown van een dynamisch deel">
 
-### wellicht nog een dynamisch deel (bijv filter): 
-<img src="" width="375px" alt="breakdown van nog een dynamisch deel">
+
+### dynamisch deel (bijv menu): 
+<img src="images/schets03.png" width="375px" alt="breakdown van een dynamisch deel">
+
+<img src="images/schets04.png" width="375px" alt="breakdown van een dynamisch deel">
+
 
 </details>
 
@@ -80,7 +83,7 @@ ticketspage
 ### Stand van zaken
 Ik vond de eerste opzet best lastig, maar zodra de basis stond ging ik best lekker.
 Moeite met onthouden van alle elementen en opties (vooral in css)
-Duurt allemaal wel best lang
+Duurt allemaal wel best lang.
 
 
 ### Agenda voor meeting
@@ -88,7 +91,7 @@ samen met je groepje opstellen
 
 | IK             | INE                | Mathijs      | Arsenio          |
 | ---            | ---                | ---          | ---              |
-| html semantisch| html semantisch    | div en class | en dan ik dat    |
+| html semantisch| html semantisch    | div en class | html bekijken    |
 |                |                    |              |                  |
 |                | ...                | ...          | ...              |
 
@@ -114,7 +117,10 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 <summary>uitwerken voor 2e voortgang</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+Ik zat inmiddels iets meer in de flow van het code schrijven,
+en het ging me dan ook iets makkelijker af dan vorige week alhoewel ik
+nogsteeds wel moeite had met foutjes terug vinden of snappen
+waarom bepaalde elementen nu op een bepaalde manier reageren.
 
 
 ### Agenda voor meeting
@@ -122,18 +128,17 @@ samen met je groepje opstellen
 
 | IK             | INE                | Mathijs      | Arsenio          |
 | ---            | ---                | ---          | ---              |
-| menu           |responsive          | div en class | en dan ik dat    |
-| formulier blok |                    |              |                  |
+| menu           |responsive          | hoe nu verder| menu             |
+| formulier blok |                    | div          |                  |
 |                | ...                | ...          | ...              |
 
 
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen
 
-- punt 1
-- punt 2
-- nog een punt
-- ...
+- Probeer niet te veel vast te zitten in alle details
+- Gebruik handige tools voor makkelijker/ sneller coderen
+
 
 </details>
 
@@ -148,6 +153,12 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 
 ### Bevindingen
 Lijst met je bevindingen die in de test naar voren kwamen:
+- labels blijven niet altijd zichtbaar/ de focusstate is niet altijd duidelijk genoeg
+- Buttons kunnen groter, anders soms lastig om op te klikken
+- kleurcontrast over het algemeen goed, maar het wit kan wegvallen tegen de foto's
+- met blur effect/ weinig zicht moet je erg dicht op de webpagina gaan zitten
+- de screenreader pakte nu niet alle linkjes omdat ze niet allemaal echt een link waren
+
 
 #### Titel eerste bevinding
 Hier korte omschrijving (met indien nodig een afbeelding)
@@ -184,26 +195,29 @@ Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbe
 <summary>uitwerken voor 3e voortgang</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+Zat deze week beetje vast in css en moeite met het uitklap menu
+De javascript werkte niet door een missende hoofdletter
+echter verder wel prima, moet gewoon nog even hard doorwerken.
+Interessant om te zien hoe lastig websites soms te gebruiken zijn voor mensen met beperkingen.
 
 
 ### Agenda voor meeting
 samen met je groepje opstellen
 
-| Ik             | INE                | Mathijs      | student 4        |
+| Ik             | INE                | Mathijs      | Arsuino          |
 | ---            | ---                | ---          | ---              |
-| dit bespreken  | responsive         | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
+| html bekijken  | even alles         | even alles   | algemeen         |
+| css bekijken   | doorlopen          | algemeen     | met tab knop     |
+|                | ...                | doorlopen    | focuss states    |
 
 
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen
 
-- punt 1
-- punt 2
-- nog een punt
-- ...
+- lijst dlo met verplichtingen
+- easter eggs eventueel toevoegen ookal past het niet vollefig
+- Hou het beoordelingsformulier er is naast
+
 
 </details>
 
@@ -236,8 +250,7 @@ hier screenshot(s) van je eindresultaat
 
 Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 
-1. bron 1
-2. bron 2
-3. ...
+1. https://www.w3schools.com/html/html_youtube.asp
+2. https://www.digitalocean.com/community/tutorials/css-styling-form-input-validity
 
 </details>
