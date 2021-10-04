@@ -66,7 +66,6 @@ ticketspage
 ### dynamisch deel (bijv menu): 
 <img src="images/schets03.png" width="375px" alt="breakdown van een dynamisch deel">
 
-<img src="images/schets04.png" width="375px" alt="breakdown van een dynamisch deel">
 
 
 </details>
@@ -157,31 +156,36 @@ Lijst met je bevindingen die in de test naar voren kwamen:
 - Buttons kunnen groter, anders soms lastig om op te klikken
 - kleurcontrast over het algemeen goed, maar het wit kan wegvallen tegen de foto's
 - met blur effect/ weinig zicht moet je erg dicht op de webpagina gaan zitten
-- de screenreader pakte nu niet alle linkjes omdat ze niet allemaal echt een link waren
+- de screenreader pakte nu niet alle linkjes omdat ze niet allemaal echt een link waren, maar werkte verder verbazingwekkend goed al op mijn eigen pagina.
 
 
-#### Titel eerste bevinding
-Hier korte omschrijving (met indien nodig een afbeelding)
+#### Onduidelijke focuss
+De focusstate was niet duidelijk genoeg (er was slechts een klein dun lijntje te zien)
 
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
-
-
-#### Titel tweede bevinding. 
-Hier korte omschrijving (met indien nodig een afbeelding)
-
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
+Dit kan simpel worden opgelost door de lijn bijvoorbeeld dikker te maken 
+en kleur toe te voegen aan de achtergrond van de focuss. 
+Dit heb ik dan ook met mijn focussstate gedaan.
 
 
-#### Titel volgende bevinding. 
-Hier korte omschrijving (met indien nodig een afbeelding)
+#### kleurcontrast soms te laag 
+Wanneer mensen die kleurenblind zijn naar de witte tekst op 
+bijvoorbeeld een afbeelding kijken kan deze een beetje wegvallen.
 
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
+Dit valt simpel op te lossen door het kleurcontrast hoger te maken
+of een kleurvlak over de afbeelding heen te zetten.
 
 
-#### Titel nog een bevinding. 
-Hier korte omschrijving (met indien nodig een afbeelding)
+#### Weinig zicht maakt alles te klein
+Mensen die geblurd zien moeten ercht dichtbij zitten
 
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
+dit kan worden opgelost door de content groter te maken
+of dit aanpasbaar te maken voor de gebruiker zelf
+
+
+#### Screenreader afbeeldingen 
+De screenreader pakt afbeeldingen niet zonder label 
+
+makkelijke oplossing: afbeeldingen labelen
 
 </details>
 
