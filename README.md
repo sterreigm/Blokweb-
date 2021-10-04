@@ -242,9 +242,9 @@ die ik heb gemaakt in de afgelopen weken.
 
 ### Screenshot(s)
 
-<img src='images/eindontwerp01.png' width="375px" >
-<img src='images/eindontwerp02.png' width="375px" >
-<img src='images/eindontwerp03.png' width="375px" >
+<img src="images/eindontwerp01.png" width="375px">
+<img src="images/eindontwerp02.png" width="375px">
+<img src="images/eindontwerp03.png" width="375px">
 
 </details>
 
